@@ -1,0 +1,1 @@
+ssh -i "newcc_instance.pem" ec2-user@ec2-34-201-66-124.compute-1.amazonaws.com

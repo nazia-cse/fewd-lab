@@ -1,0 +1,53 @@
+Build a linear regression model using Python and scikit-learn.
+
+
+Data Preparation
+•       Loading a housing dataset (California housing prices)
+
+•       Handling missing values
+
+•       Basic exploratory data analysis (EDA) and visualization
+
+Data Visualization
+•       Histograms and scatter plots
+
+•       Boxplots to analyze outliers
+
+Building a Linear Regression Model
+•       Splitting the dataset into training and testing sets
+
+•       Training the model using scikit-learn’s LinearRegression
+
+•       Evaluating model coefficients (slope and intercept)
+
+Model Performance Evaluation
+•       Calculating Mean Squared Error (MSE) and Mean Absolute Error (MAE)
+
+•       Using R² score to assess model fit
+
+Outlier Handling and Improved Model
+•       Removing outliers from income and housing values
+
+•       Rebuilding the regression model
+
+•       Comparing performance before and after handling outliers
+
+
+
+
+
+
+
+
+
+
+cc assignment 3:
+
+Create EBS vol and mount it to the EC2 within same region
+ 1. Attach and detach vol
+2. Mount vol
+3. Effect of rebooting the instance
+Create EBS vol. and mount it to the EC2 across the region
+1. Create snapshot
+2. Get vols from snapshot attach the vol to instance
+Not: provide screenshot for above steps

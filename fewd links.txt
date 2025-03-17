@@ -6,3 +6,10 @@ https://fzvkh3.csb.app/stylesheet.css
 
 https://fzvkh3.csb.app/newprotofolio.html
 https://fzvkh3.csb.app/nav.html
+
+
+
+https://fzvkh3.csb.app/feedback.html
+
+
+https://fzvkh3.csb.app/protfolio.html

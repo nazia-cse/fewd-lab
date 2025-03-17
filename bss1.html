@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical;
+            height: 80px;
+        }
+        .required {
+            color: red;
+        }
+        .submit-btn {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .note {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Feedback Form</h2>
+        <form>
+            <label>Full Name <span class="required">*</span></label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email Address <span class="required">*</span></label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number <span class="required">*</span></label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Rate Our Service <span class="required">*</span></label>
+            <select required>
+                <option value="">Select Rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Fair</option>
+                <option value="3">3 - Good</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+
+            <label>Questions Regarding Product/Service <span class="required">*</span></label>
+            <textarea placeholder="Write your questions here..." required></textarea>
+
+            <label>Additional Comments (Optional)</label>
+            <textarea placeholder="Write your comments here..."></textarea>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+
+            <p class="note">* All fields except Additional Comments are mandatory.</p>
+        </form>
+    </div>
+</body>
+</html>
